@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+	<Ad>
+		<ImageUrl>~\images\1723279149852.jpg</ImageUrl>
+		<NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+		<Impression>2</Impression>
+		<Keywords>booking,trip</Keywords>
+		<alternateText></alternateText>
+	</Ad>
+	<Ad>
+		<ImageUrl>~\images\WhatsApp Image 2025-11-12 at 1.03.25 PM.jpeg</ImageUrl>
+		<NavigateUrl>https://www.flipkart.com/</NavigateUrl>
+		<Impression>2</Impression>
+		<Keywords>booking,trip</Keywords>
+		<alternateText></alternateText>
+	</Ad>
+</Advertisements>
