@@ -28,5 +28,10 @@ namespace WebApplication1
 
 
         }
+
+        protected void next_btn_Click(object sender, EventArgs e)
+        {
+            MultiView1.ActiveViewIndex = 1;
+        }
     }
 }

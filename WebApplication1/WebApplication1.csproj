@@ -69,12 +69,20 @@
   <ItemGroup>
     <Content Include="images\1723279149852.jpg" />
     <Content Include="images\WhatsApp Image 2025-11-12 at 1.03.25 PM.jpeg" />
+    <Content Include="validation.aspx" />
     <Content Include="Web.config" />
     <Content Include="webform2.aspx" />
     <Content Include="XMLFile1.xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="validation.aspx.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="validation.aspx.designer.cs">
+      <DependentUpon>validation.aspx</DependentUpon>
+    </Compile>
     <Compile Include="webform2.aspx.cs">
       <DependentUpon>webform2.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

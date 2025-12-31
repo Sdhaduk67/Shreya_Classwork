@@ -28,6 +28,14 @@
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Upload" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+        <asp:MultiView ID="MultiView1" runat="server">
+            <asp:View ID="View1" runat="server">
+                Hyy this is from view 1<br />
+                <br />
+                <asp:Button ID="next_btn" runat="server"
+            </asp:View>
+        </asp:MultiView>
+        <asp:Button ID="next_btn" runat="server" OnClick="next_btn_Click" Text="Next" />
     </form>
 </body>
 </html>
